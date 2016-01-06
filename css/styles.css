@@ -1,26 +1,80 @@
+
 body {
   width: 800px;
   margin: 0 auto;
   background-color: #e5ffe5;
 }
 
-h2.intro {
+div.intro, div.footer {
+  padding-top: 1px;
+  padding-bottom: 1px;
+  /*margin-top: 5px;
+  margin-bottom: 5px;*/
+}
+
+h2{
   color: #4da6ff;
   border: 1px black solid;
   border-radius: 10px;
   padding: 5px;
   text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-p.intro {
+.container p, h2{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.intro {
+  background-color: #ffcccc;
+}
+
+p.first{
   font-size: 1.25em;
   font-weight: bold;
   text-align: center;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
 }
 
-img.intro {
+img {
   display: block;
   margin: 0 auto;
   border: 5px solid #d9d9d9;
   padding: 5px;
+}
+
+.footer {
+  background-color: #ffe0b3;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
